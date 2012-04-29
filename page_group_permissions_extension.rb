@@ -30,7 +30,7 @@ class PageGroupPermissionsExtension < Radiant::Extension
       end
       admin.pages.index.add :node, "page_group_td", :before => "status_column"
       admin.pages.index.add :sitemap_head, "page_group_th", :before => "status_column_header"
-      admin.pages.edit.add :parts_bottom, "page_group_form_part", :after => "edit_timestamp"
+      admin.pages.edit.add :layout, "page_group_form_part", :after => "edit_published_at"
     end
   end
 
