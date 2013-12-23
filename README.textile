@@ -46,7 +46,9 @@ A member of a group has permission to edit any page owned by the group or childr
 
 h2. Revision History
 
-* 5/12/2011 - Compatible with >= 0.9 [Andrew vonderLuft, Jim Gay]
+* 12/2013 - Add model for join table groups_users [Andrew vonderLuft]
+* 2/2013- Fix deprecations [Andrew vonderLuft]
+* 5/2011 - Compatible with >= 0.9 [Andrew vonderLuft, Jim Gay]
 * 7/7/2009 - Updated to work with Radiant 0.8+ [Matthew Bass]
 
 h2. To do
